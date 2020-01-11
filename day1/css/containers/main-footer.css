@@ -1,0 +1,14 @@
+.footer {
+    padding: 70px 0px;
+    background-color: var(--color-septenary);
+    text-align: center;
+}
+
+.footer > p {
+    font-size: 16px;
+    color: var(--color-quinary);
+}
+
+.footer > p > .link {
+    color: var(--color-octonary);
+}

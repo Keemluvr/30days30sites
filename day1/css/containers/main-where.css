@@ -1,0 +1,48 @@
+.where {
+    padding: 70px 0px;
+}
+
+.where > .title {
+    margin: 20px 0 45px 0;
+    text-align: center;
+    color: var(--color-quaternary);
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.where > .cards {
+    display: flex;
+}
+
+.where > .cards > .card {
+    padding: 0 15px;    
+}
+
+.where > .cards > .card > p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: var(--color-quaternary);
+}
+
+.where > .cards > .card > img {
+    width: 100%;
+}
+
+@media (max-width:750px){
+    .where > .cards {
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    .where > .cards > .card {
+        padding: 0px;
+        margin-bottom: 45px; 
+    }
+
+    .where > .cards > .card > img {
+        width:100%;
+    }
+
+}

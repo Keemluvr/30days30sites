@@ -1,0 +1,38 @@
+.what {
+    background-color: var(--color-quaternary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+}
+
+.what > .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 45px;
+    max-width: 90%;
+}
+
+.what > .text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 10px 5px 10px;
+    max-width: 90%;
+}
+
+.what > .simple-button {
+    background-color: var(--color-quinary);
+    font-size: 18px;
+    color: var(--color-senary);
+    line-height: 1.333;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin: 0 0px 45px 0px;
+}
+
+.what > .simple-button > .icon-search {
+    height: 18px;
+}
