@@ -1,0 +1,38 @@
+.parallax {
+  background-image: url("https://static.wixstatic.com/media/f61af8_80412067676f4e00b1d86c04dd9a5826~mv2.jpg/v1/fill/w_858,h_683,al_c,q_85/f61af8_80412067676f4e00b1d86c04dd9a5826~mv2.webp");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  object-position: 50% 50%;
+}
+
+.content {
+  background-color: rgba(82, 66, 97, 0.3);
+  min-height: 90vh;
+  color: var(--color-secondary);
+}
+
+.content > .couple::before,
+.content > .couple::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid var(--color-secondary);
+  width: 2rem;
+  margin: 0 1rem;
+  transform: translateY(-0.5rem);
+}
+
+.content > .couple {
+  font: normal 200 normal 30px/1.4em var(--font-Snell-Roundhand);
+}
+
+.content > .title {
+  font: normal 900 normal 50px/1.4em var(--font-Poiret-One);
+  letter-spacing: 5px;
+}
+
+.content > .local {
+  font: normal 200 normal 15px/1.4em var(--font-Poiret-One);
+}

@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--color-quaternary);
+    color: var(--color-secondary);
+    height: 100%;
+    letter-spacing: 0.05em;
+    font-family: var(--font-Poiret-One);
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+}

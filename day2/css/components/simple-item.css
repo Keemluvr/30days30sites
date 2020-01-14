@@ -1,0 +1,14 @@
+.simple-item {
+    color: var(--color-primary) !important;
+    font-family: var(--font-Poiret-One);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.simple-item-active {
+    color: var(--color-tertiary) !important;
+}
+
+.simple-item:hover {
+    color: var(--color-tertiary) !important;
+}
